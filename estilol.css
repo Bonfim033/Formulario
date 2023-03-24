@@ -1,0 +1,14 @@
+fieldset{
+    align-items: center;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ilogado{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="estiloc.css">
+</head>
+<body>
+
+    <form action="ação a ser executada">
+        <fieldset>
+            <legend>Usuario</legend>
+
+            <label for="inome">Nome:</label>
+            <input id="inome" name="txtnome" type="text" placeholder="Inserir Nome">
+            <br>
+
+            <label for="idatanas">Data de nascimento:</label>
+            <input id="idatanas" name="ddatanas" type="date">
+            <br>
+
+            <label for="isexo">Sexo:</label>
+            <select id="isexo" name="slsexo">
+                <option value="M">Masculino</option>
+                <option value="F">Feminino</option>
+                <option value="A">Agenero</option>
+            </select>
+            <br>
+
+            <label for="imail">E-mail:</label>
+            <input id="imail" name="emmail" type="email" placeholder="Inserir email">
+            <br>
+
+            <label for="icmail">Confirme seu E-mail:</label>
+            <input id="icmail" name="emcmail" type="email" placeholder="Inserir email">
+            <br>
+
+            <label>Tipo:</label>
+            <br>
+            <input type="radio" name="rtipo" id="iusuario" value="U">
+            <label for="iusuario">Usuario</label>
+            <br>
+            <input type="radio" name="rtipo" id="iadmin" value="A">
+            <label for="iadmin">ADM</label>
+            <br>
+
+            <label for="ifale">Fale sobre você:</label>
+            <br>
+
+            <textarea name="txtafale" id="ifale" cols="30" rows="5"></textarea>
+            <br>
+
+            <input type="submit" value="ENVIAR">
+            <input type="reset" value="LIMPAR">
+        </fieldset>
+    </form>
+</body>
+</html>
